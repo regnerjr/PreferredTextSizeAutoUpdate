@@ -12,6 +12,7 @@
 		52E235D11BA7B21C00C2BBCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E235CF1BA7B21C00C2BBCA /* Main.storyboard */; };
 		52E235D31BA7B21C00C2BBCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52E235D21BA7B21C00C2BBCA /* Assets.xcassets */; };
 		52E235D61BA7B21D00C2BBCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E235D41BA7B21D00C2BBCA /* LaunchScreen.storyboard */; };
+		52E235FA1BA7BE5F00C2BBCA /* DynamicBodyTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E235F91BA7BE5F00C2BBCA /* DynamicBodyTextView.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		52E235D71BA7B21D00C2BBCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52E235DC1BA7B21D00C2BBCA /* PreferredTextSizeAutoUpdateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PreferredTextSizeAutoUpdateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E235E71BA7B21D00C2BBCA /* PreferredTextSizeAutoUpdateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PreferredTextSizeAutoUpdateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52E235F91BA7BE5F00C2BBCA /* DynamicBodyTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicBodyTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				52E235CB1BA7B21C00C2BBCA /* AppDelegate.swift */,
 				52E235CD1BA7B21C00C2BBCA /* ViewController.swift */,
 				52E235CF1BA7B21C00C2BBCA /* Main.storyboard */,
+				52E235F91BA7BE5F00C2BBCA /* DynamicBodyTextView.swift */,
 				52E235D21BA7B21C00C2BBCA /* Assets.xcassets */,
 				52E235D41BA7B21D00C2BBCA /* LaunchScreen.storyboard */,
 				52E235D71BA7B21D00C2BBCA /* Info.plist */,
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52E235CE1BA7B21C00C2BBCA /* ViewController.swift in Sources */,
+				52E235FA1BA7BE5F00C2BBCA /* DynamicBodyTextView.swift in Sources */,
 				52E235CC1BA7B21C00C2BBCA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -455,6 +459,7 @@
 				52E235F21BA7B21D00C2BBCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52E235F31BA7B21D00C2BBCA /* Build configuration list for PBXNativeTarget "PreferredTextSizeAutoUpdateTests" */ = {
 			isa = XCConfigurationList;
@@ -463,6 +468,7 @@
 				52E235F51BA7B21D00C2BBCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52E235F61BA7B21D00C2BBCA /* Build configuration list for PBXNativeTarget "PreferredTextSizeAutoUpdateUITests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +477,7 @@
 				52E235F81BA7B21D00C2BBCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
