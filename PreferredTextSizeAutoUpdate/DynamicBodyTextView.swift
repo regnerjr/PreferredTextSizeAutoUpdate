@@ -1,6 +1,9 @@
 import UIKit
 
-class DynamicBodyTextView: UITextView {
+class DynamicTextView: UITextView {
+
+    var fontStyle = UIFontTextStyleBody
+
     override init(frame: CGRect, textContainer: NSTextContainer?) {
         super.init(frame: frame, textContainer: textContainer)
         setFont()
@@ -14,7 +17,7 @@ class DynamicBodyTextView: UITextView {
     }
 
     func setFont(){
-        self.font = UIFont.preferredFontForTextStyle(UIFontTextStyleBody)
+        self.font = UIFont.preferredFontForTextStyle(fontStyle)
     }
 
     func registerForNotification(){
@@ -24,7 +27,7 @@ class DynamicBodyTextView: UITextView {
     }
 
     func textSizeWasUpdated(note: NSNotification){
-        self.font = UIFont.preferredFontForTextStyle(UIFontTextStyleBody)
+        self.font = UIFont.preferredFontForTextStyle(fontStyle)
     }
     
 }
