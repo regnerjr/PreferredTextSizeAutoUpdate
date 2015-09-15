@@ -7,7 +7,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         textView.font = UIFont.preferredFontForTextStyle(UIFontTextStyleBody)
-        NSNotificationCenter.defaultCenter().addObserver(self, selector: "textSizeWasUpdated:", name: UIContentSizeCategoryDidChangeNotification, object: nil)
+        let notificationCenter = NSNotificationCenter.defaultCenter()
+        notificationCenter.addObserver(self, selector: "textSizeWasUpdated:", name: UIContentSizeCategoryDidChangeNotification, object: nil)
     }
 
     func textSizeWasUpdated(note: NSNotification){
