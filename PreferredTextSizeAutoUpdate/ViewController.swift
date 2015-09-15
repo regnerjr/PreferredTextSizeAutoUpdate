@@ -1,25 +1,16 @@
-//
-//  ViewController.swift
-//  PreferredTextSizeAutoUpdate
-//
-//  Created by John Regner on 9/14/15.
-//  Copyright © 2015 johnregner. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var textView: UITextView!
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        textView.font = UIFont.preferredFontForTextStyle(UIFontTextStyleBody)
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "textSizeWasUpdated:", name: UIContentSizeCategoryDidChangeNotification, object: nil)
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func textSizeWasUpdated(note: NSNotification){
+        textView.font = UIFont.preferredFontForTextStyle(UIFontTextStyleBody)
     }
-
-
 }
-

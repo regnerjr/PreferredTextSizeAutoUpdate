@@ -12,8 +12,6 @@
 		52E235D11BA7B21C00C2BBCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E235CF1BA7B21C00C2BBCA /* Main.storyboard */; };
 		52E235D31BA7B21C00C2BBCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52E235D21BA7B21C00C2BBCA /* Assets.xcassets */; };
 		52E235D61BA7B21D00C2BBCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E235D41BA7B21D00C2BBCA /* LaunchScreen.storyboard */; };
-		52E235E11BA7B21D00C2BBCA /* PreferredTextSizeAutoUpdateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E235E01BA7B21D00C2BBCA /* PreferredTextSizeAutoUpdateTests.swift */; };
-		52E235EC1BA7B21D00C2BBCA /* PreferredTextSizeAutoUpdateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E235EB1BA7B21D00C2BBCA /* PreferredTextSizeAutoUpdateUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +40,7 @@
 		52E235D51BA7B21D00C2BBCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52E235D71BA7B21D00C2BBCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52E235DC1BA7B21D00C2BBCA /* PreferredTextSizeAutoUpdateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PreferredTextSizeAutoUpdateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		52E235E01BA7B21D00C2BBCA /* PreferredTextSizeAutoUpdateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferredTextSizeAutoUpdateTests.swift; sourceTree = "<group>"; };
-		52E235E21BA7B21D00C2BBCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52E235E71BA7B21D00C2BBCA /* PreferredTextSizeAutoUpdateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PreferredTextSizeAutoUpdateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		52E235EB1BA7B21D00C2BBCA /* PreferredTextSizeAutoUpdateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferredTextSizeAutoUpdateUITests.swift; sourceTree = "<group>"; };
-		52E235ED1BA7B21D00C2BBCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				52E235CA1BA7B21C00C2BBCA /* PreferredTextSizeAutoUpdate */,
-				52E235DF1BA7B21D00C2BBCA /* PreferredTextSizeAutoUpdateTests */,
-				52E235EA1BA7B21D00C2BBCA /* PreferredTextSizeAutoUpdateUITests */,
 				52E235C91BA7B21C00C2BBCA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,24 +97,6 @@
 				52E235D71BA7B21D00C2BBCA /* Info.plist */,
 			);
 			path = PreferredTextSizeAutoUpdate;
-			sourceTree = "<group>";
-		};
-		52E235DF1BA7B21D00C2BBCA /* PreferredTextSizeAutoUpdateTests */ = {
-			isa = PBXGroup;
-			children = (
-				52E235E01BA7B21D00C2BBCA /* PreferredTextSizeAutoUpdateTests.swift */,
-				52E235E21BA7B21D00C2BBCA /* Info.plist */,
-			);
-			path = PreferredTextSizeAutoUpdateTests;
-			sourceTree = "<group>";
-		};
-		52E235EA1BA7B21D00C2BBCA /* PreferredTextSizeAutoUpdateUITests */ = {
-			isa = PBXGroup;
-			children = (
-				52E235EB1BA7B21D00C2BBCA /* PreferredTextSizeAutoUpdateUITests.swift */,
-				52E235ED1BA7B21D00C2BBCA /* Info.plist */,
-			);
-			path = PreferredTextSizeAutoUpdateUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,7 +238,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52E235E11BA7B21D00C2BBCA /* PreferredTextSizeAutoUpdateTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +245,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52E235EC1BA7B21D00C2BBCA /* PreferredTextSizeAutoUpdateUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
